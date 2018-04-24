@@ -190,6 +190,10 @@ PRODUCT_PACKAGES += \
     LineageYellowAccent \
     LineageTealAccent
 
+# Fonts
+PRODUCT_PACKAGES += \
+    RR-Fonts
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
