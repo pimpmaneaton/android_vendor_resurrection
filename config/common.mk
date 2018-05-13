@@ -259,12 +259,12 @@ PRODUCT_COPY_FILES += \
 # Copy features.txt from the path
 PRODUCT_COPY_FILES += \
     vendor/rr/Features.mkdn:system/etc/RR/Features.txt
-    
+
 # Included prebuilt apk's
 PRODUCT_PACKAGES += \
     GoogleClock \
     Wallpapers
- 
+
 # rsync
 PRODUCT_PACKAGES += \
     rsync
