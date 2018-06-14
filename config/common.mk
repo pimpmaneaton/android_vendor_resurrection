@@ -193,6 +193,13 @@ PRODUCT_PACKAGES += \
     LineageYellowAccent \
     LineageDemonAccent \
     LineageTurquoiseAccent \
+    LineageDeeppurpleAccent \
+    LineageDeeporangeAccent \
+    LineageBluegreyAccent \
+    LineageIndigoAccent \
+    LineageLightblueAccent \
+    LineageLightgreenAccent \
+    LineageLimeAccent \
     LineageTealAccent
 
 # Fonts
