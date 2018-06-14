@@ -191,6 +191,8 @@ PRODUCT_PACKAGES += \
     LineagePurpleAccent \
     LineageRedAccent \
     LineageYellowAccent \
+    LineageDemonAccent \
+    LineageTurquoiseAccent \
     LineageTealAccent
 
 # Fonts
