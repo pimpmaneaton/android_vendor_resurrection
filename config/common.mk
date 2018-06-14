@@ -170,12 +170,6 @@ PRODUCT_PACKAGES += \
 
 # Berry styles
 PRODUCT_PACKAGES += \
-    LineageDarkTheme \
-    LineageSysUIDarkTheme \
-    LineageSettingsDarkTheme \
-    LineageBlackTheme \
-    LineageSysUIBlackTheme \
-    LineageSettingsBlackTheme \
     LineageAmberAccent \
     LineageGoldAccent \
     LineageDenimAccent \
@@ -201,6 +195,15 @@ PRODUCT_PACKAGES += \
     LineageLightgreenAccent \
     LineageLimeAccent \
     LineageTealAccent
+
+# Default dark theme
+PRODUCT_PACKAGES += \
+    DefaultDark-System \
+    DefaultDark-SystemUI \
+    DefaultDark-Settings \
+    DefaultDark-LineageParts \
+    DefaultBlack-System \
+    DefaultBlack-SystemUI
 
 # Fonts
 PRODUCT_PACKAGES += \
