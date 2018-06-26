@@ -278,8 +278,7 @@ PRODUCT_COPY_FILES += \
 
 # Included prebuilt apk's
 PRODUCT_PACKAGES += \
-    GoogleClock \
-    Wallpapers
+    RetroMusicPlayer
 
 # rsync
 PRODUCT_PACKAGES += \
