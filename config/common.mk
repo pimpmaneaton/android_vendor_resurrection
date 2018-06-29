@@ -165,6 +165,7 @@ PRODUCT_PACKAGES += \
     WeatherProvider \
     OmniJaws \
     OmniStyle \
+    OmniSwitch \
     ResurrectionOTA \
     ResurrectionStats
 
