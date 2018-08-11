@@ -315,7 +315,7 @@ endif
 
 DEVICE_PACKAGE_OVERLAYS += vendor/rr/overlay/common
 
-PRODUCT_VERSION = 6.1.2
+PRODUCT_VERSION = 6.1.3
 ifneq ($(RR_BUILDTYPE),)
 RR_VERSION := RR-O-v$(PRODUCT_VERSION)-$(shell date +%Y%m%d)-$(RR_BUILD)-$(RR_BUILDTYPE)
 else
