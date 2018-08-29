@@ -250,6 +250,11 @@ ifeq ($(TARGET_KERNEL_CLANG_COMPILE),true)
     endif
 endif
 
+# Needed for CONFIG_COMPAT_VDSO, safe to set for all arm64 builds
+ifeq ($(KERNEL_ARCH),arm64)
+   KERNEL_CROSS_COMPILE += CROSS_COMPILE_ARM32="arm-linux-androideabi-"
+endif
+
 ifneq ($(USE_CCACHE),)
     # Detect if the system already has ccache installed to use instead of the prebuilt
     ccache := $(shell which ccache)
